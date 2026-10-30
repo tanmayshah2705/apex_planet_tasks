@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-labelledby="title desc">
+<title id="title">Web development illustration</title>
+<desc id="desc">A stylized browser window with HTML, CSS and JavaScript labels.</desc>
+<rect x="38" y="42" width="444" height="320" rx="24" fill="#dceee9"/>
+<rect x="66" y="70" width="388" height="264" rx="16" fill="#ffffff"/>
+<path d="M66 86a16 16 0 0 1 16-16h356a16 16 0 0 1 16 16v38H66z" fill="#173b3a"/>
+<circle cx="91" cy="97" r="7" fill="#f2a58a"/><circle cx="115" cy="97" r="7" fill="#f2d27b"/><circle cx="139" cy="97" r="7" fill="#8bc9ad"/>
+<rect x="92" y="158" width="116" height="140" rx="13" fill="#fff0e9"/>
+<text x="150" y="218" text-anchor="middle" font-family="Arial" font-size="30" font-weight="bold" fill="#d65a28">&lt;/&gt;</text>
+<text x="150" y="258" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#173b3a">HTML</text>
+<rect x="222" y="158" width="116" height="140" rx="13" fill="#eaf1ff"/>
+<text x="280" y="218" text-anchor="middle" font-family="Arial" font-size="34" font-weight="bold" fill="#356ac3">✦</text>
+<text x="280" y="258" text-anchor="middle" font-family="Arial" font-size="19" font-weight="bold" fill="#173b3a">CSS</text>
+<rect x="352" y="158" width="76" height="140" rx="13" fill="#fff8d9"/>
+<text x="390" y="220" text-anchor="middle" font-family="Arial" font-size="25" font-weight="bold" fill="#8c7110">JS</text>
+<path d="M178 378h164" stroke="#087f73" stroke-width="12" stroke-linecap="round"/>
+<circle cx="260" cy="378" r="9" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beginner-friendly introduction to web development.">
+    <title>Web Development Basics</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navigation" aria-label="Main navigation">
+            <a class="brand" href="#home">WebBasics</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#technologies">Technologies</a>
+                <a href="#resources">Resources</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">LEARN • BUILD • CREATE</p>
+                <h1>Explore the World of <span>Web Development</span></h1>
+                <p class="hero-description">
+                    Every website starts with a few building blocks. Learn how HTML,
+                    CSS and JavaScript work together to create useful and engaging
+                    experiences on the web.
+                </p>
+                <a class="primary-link" href="#technologies">Explore the basics</a>
+            </div>
+            <img class="hero-image" src="images/web-development.svg"
+                 alt="Illustration of a browser window with HTML, CSS and JavaScript symbols">
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">THE FOUNDATION</p>
+                <h2>What is Web Development?</h2>
+            </div>
+            <p class="section-intro">
+                Web development is the process of creating and maintaining websites.
+                It combines structure, visual design and programming to make pages
+                that people can access through a web browser.
+            </p>
+        </section>
+
+        <section class="section technologies-section" id="technologies">
+            <div class="section-heading">
+                <p class="eyebrow">THREE CORE TECHNOLOGIES</p>
+                <h2>The Building Blocks</h2>
+            </div>
+            <div class="cards">
+                <article class="card">
+                    <div class="technology-icon html-icon" aria-hidden="true">&lt;/&gt;</div>
+                    <h3>HTML</h3>
+                    <p>HTML provides the structure and content of a webpage, such as headings, paragraphs, images and links.</p>
+                </article>
+                <article class="card">
+                    <div class="technology-icon css-icon" aria-hidden="true">✦</div>
+                    <h3>CSS</h3>
+                    <p>CSS controls how a webpage looks, including its colors, fonts, spacing and layout.</p>
+                </article>
+                <article class="card">
+                    <div class="technology-icon js-icon" aria-hidden="true">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript adds behaviour and interactivity, allowing a webpage to respond to user actions.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section resources-section" id="resources">
+            <div class="section-heading">
+                <p class="eyebrow">KEEP LEARNING</p>
+                <h2>Useful Learning Resources</h2>
+            </div>
+            <p>Explore these websites to learn more about the technologies used to build the web:</p>
+            <ul class="resource-list">
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">MDN: HTML</a> — learn about webpage structure.</li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">MDN: CSS</a> — explore styling and layouts.</li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">MDN: JavaScript</a> — understand programming for the web.</li>
+            </ul>
+            <div class="interaction-box">
+                <div>
+                    <h3>Ready to start building?</h3>
+                    <p>Click the button to see a small JavaScript interaction.</p>
+                </div>
+                <button id="welcomeButton" type="button">Say hello</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Created as Task 1 — Basics of Web Development.</p>
+    </footer>
+</body>
+</html>
