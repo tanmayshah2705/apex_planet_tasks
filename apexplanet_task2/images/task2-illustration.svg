@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 390">
+<title>Contact form and checklist illustration</title>
+<rect x="34" y="34" width="452" height="320" rx="24" fill="#dceee9"/>
+<rect x="66" y="61" width="388" height="267" rx="16" fill="#fff"/>
+<path d="M66 77a16 16 0 0 1 16-16h356a16 16 0 0 1 16 16v34H66z" fill="#173b3a"/>
+<circle cx="91" cy="87" r="6" fill="#f2a58a"/><circle cx="113" cy="87" r="6" fill="#f2d27b"/><circle cx="135" cy="87" r="6" fill="#8bc9ad"/>
+<rect x="96" y="139" width="177" height="16" rx="8" fill="#dce8e5"/><rect x="96" y="168" width="177" height="38" rx="7" fill="#f3f7f6" stroke="#cbd9d5"/><rect x="96" y="218" width="177" height="38" rx="7" fill="#f3f7f6" stroke="#cbd9d5"/><rect x="96" y="271" width="92" height="25" rx="7" fill="#087f73"/>
+<rect x="300" y="139" width="120" height="157" rx="12" fill="#eaf5f2"/>
+<rect x="318" y="161" width="14" height="14" rx="3" fill="#087f73"/><path d="m321 168 4 4 7-9" fill="none" stroke="#fff" stroke-width="2"/><rect x="340" y="164" width="59" height="8" rx="4" fill="#9ab8b0"/>
+<rect x="318" y="195" width="14" height="14" rx="3" fill="#087f73"/><path d="m321 202 4 4 7-9" fill="none" stroke="#fff" stroke-width="2"/><rect x="340" y="198" width="59" height="8" rx="4" fill="#9ab8b0"/>
+<rect x="318" y="229" width="14" height="14" rx="3" fill="#fff" stroke="#9ab8b0"/><rect x="340" y="232" width="59" height="8" rx="4" fill="#9ab8b0"/>
+</svg>
