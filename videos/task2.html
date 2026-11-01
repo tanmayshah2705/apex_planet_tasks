@@ -1,4 +1,4 @@
-```html
+html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,28 +15,60 @@
           content="Demonstration of Task 2 - Intermediate HTML, CSS and JavaScript">
 
     <meta property="og:type" content="website">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        a {
+            color: #087f73;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>ApexPlanet Internship - Task 2</h1>
+    <div class="container">
 
-    <h2>Intermediate HTML, CSS and JavaScript</h2>
+        <h1>ApexPlanet Internship - Task 2</h1>
 
-    <video controls width="100%" preload="metadata">
-        <source src="ApexPlanet%20Internship%20-%20Task%202%20Intermediate%20HTML%20CSS%20and%20JavaScript.mp4"
+        <p>Intermediate HTML, CSS and JavaScript</p>
+
+        <video controls preload="metadata">
+            <source
+                src="ApexPlanet%20Internship%20-%20Task%202%20Intermediate%20HTML%20CSS%20and%20JavaScript.mp4"
                 type="video/mp4">
 
-        Your browser does not support video playback.
-    </video>
+            Your browser does not support video playback.
+        </video>
 
-    <p>
-        <a href="ApexPlanet%20Internship%20-%20Task%202%20Intermediate%20HTML%20CSS%20and%20JavaScript.mp4"
-           download>
-            Download Video
-        </a>
-    </p>
+        <p>
+            <a href="ApexPlanet%20Internship%20-%20Task%202%20Intermediate%20HTML%20CSS%20and%20JavaScript.mp4"
+               download>
+                Download Video
+            </a>
+        </p>
+
+    </div>
 
 </body>
 </html>
-```
+
