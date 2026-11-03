@@ -14,6 +14,16 @@ h1,h2,h3{font-family:Manrope,Arial;line-height:1.2}h1{margin:0;font-size:clamp(2
 .primary-link,.primary-button{background:var(--accent);color:white}.primary-link:hover,.primary-button:hover:not(:disabled){background:var(--dark);transform:translateY(-1px)}
 .primary-button:disabled,.secondary-button:disabled{opacity:.45;cursor:not-allowed}.secondary-button{background:#e5f2ef;color:var(--dark)}.secondary-button:hover:not(:disabled){background:#d3e9e3}
 .section{width:min(900px,90%);margin:0 auto 78px;scroll-margin-top:100px}.section-heading{margin-bottom:25px}.section-heading h2{margin:0 0 10px;font-size:clamp(1.8rem,3vw,2.5rem)}.muted{color:var(--muted)}
+.quiz-card,.result-card,.joke-card{padding:30px;border:1px solid var(--line);border-radius:17px;background:white;box-shadow:0 12px 32px #172b3a0b}
+.quiz-topline{display:flex;justify-content:space-between;gap:15px;color:var(--muted);font-size:.9rem;font-weight:700}
+.progress-track{height:8px;margin:14px 0 28px;overflow:hidden;border-radius:99px;background:#e8efed}.progress-fill{width:20%;height:100%;border-radius:inherit;background:var(--accent);transition:width .2s}
+.quiz-card h3{margin:0 0 20px;font-size:1.35rem}.answer-options{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.answer-option{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:#fbfdfc;color:var(--ink);text-align:left;font:inherit;cursor:pointer}
+.answer-option:hover:not(:disabled){border-color:var(--accent);background:#f0f8f6}.answer-option:disabled{cursor:default}
+.answer-option.correct{border-color:var(--correct);background:#e8f6ee;color:var(--correct)}.answer-option.incorrect{border-color:var(--wrong);background:#fff0ef;color:var(--wrong)}
+.quiz-feedback{min-height:1.5em;margin:18px 0 0;font-weight:700}.quiz-feedback.correct{color:var(--correct)}.quiz-feedback.incorrect{color:var(--wrong)}
+.quiz-actions{display:flex;justify-content:flex-end;margin-top:15px}.result-card{text-align:center}.result-card h3{margin:0;font-size:1.7rem}
+.result-score{margin:15px 0 5px;color:var(--accent);font:800 2.5rem Manrope,Arial}
 
 .site-footer{padding:23px 5%;background:#173b3a;color:#eaf5f2;text-align:center}.site-footer p{margin:0}
 @media(max-width:760px){.navigation{min-height:68px;flex-wrap:wrap}.menu-toggle{display:block}.nav-links{display:none;width:100%;padding:0 0 16px;flex-direction:column;gap:12px}.nav-links.open{display:flex}.hero{padding:52px 0;grid-template-columns:1fr;gap:22px}.hero img{max-width:330px;justify-self:center}.section{margin-bottom:60px}}

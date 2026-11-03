@@ -23,6 +23,21 @@
 <a class="primary-link" href="#quiz">Start the quiz</a></div>
 <img src="images/task3-illustration.svg" alt="Illustration of a quiz card and light bulb">
 </section>
+<section class="section" id="quiz">
+<div class="section-heading"><p class="eyebrow">TEST YOUR KNOWLEDGE</p><h2>Web Development Quiz</h2><p class="muted">Answer five multiple-choice questions about HTML, CSS and JavaScript.</p></div>
+<div class="quiz-card" id="quizCard">
+<div class="quiz-topline"><span id="questionCounter">Question 1 of 5</span><span id="scorePreview">Score: 0</span></div>
+<div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+<h3 id="questionText">Loading question...</h3>
+<div class="answer-options" id="answerOptions"></div>
+<p class="quiz-feedback" id="quizFeedback" role="status" aria-live="polite"></p>
+<div class="quiz-actions"><button class="primary-button" id="nextButton" type="button" disabled>Next question</button></div>
+</div>
+<div class="result-card" id="resultCard" hidden>
+<p class="eyebrow">QUIZ COMPLETED</p><h3>Your result</h3><p class="result-score" id="finalScore"></p>
+<p class="muted" id="resultMessage"></p><button class="primary-button" id="restartButton" type="button">Try again</button>
+</div>
+</section>
 
 </main>
 <footer class="site-footer"><p>ApexPlanet Internship | Task 3 – Advanced Styling and JavaScript</p></footer>
