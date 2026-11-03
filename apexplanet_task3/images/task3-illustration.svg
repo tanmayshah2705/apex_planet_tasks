@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 400">
+<title>Quiz and learning illustration</title>
+<rect x="28" y="35" width="464" height="330" rx="28" fill="#dceee9"/>
+<rect x="65" y="72" width="270" height="250" rx="18" fill="#fff"/>
+<path d="M65 90a18 18 0 0 1 18-18h234a18 18 0 0 1 18 18v30H65z" fill="#173b3a"/>
+<circle cx="90" cy="96" r="6" fill="#f2a58a"/><circle cx="111" cy="96" r="6" fill="#f2d27b"/><circle cx="132" cy="96" r="6" fill="#8bc9ad"/>
+<rect x="91" y="146" width="180" height="13" rx="6" fill="#dce8e5"/>
+<rect x="91" y="178" width="218" height="31" rx="8" fill="#eaf5f2" stroke="#cbd9d5"/>
+<rect x="91" y="220" width="218" height="31" rx="8" fill="#eaf5f2" stroke="#cbd9d5"/>
+<rect x="91" y="262" width="218" height="31" rx="8" fill="#eaf5f2" stroke="#cbd9d5"/>
+<circle cx="397" cy="170" r="62" fill="#fff8d9"/>
+<path d="M374 169a23 23 0 1 1 46 0c0 11-8 16-12 25h-22c-4-9-12-14-12-25z" fill="#f2c94c"/>
+<path d="M385 200h24m-21 9h18m-15 8h12" stroke="#8c7110" stroke-width="5" stroke-linecap="round"/>
+<path d="M397 82V64m54 39 14-12m-122 12-14-12" stroke="#087f73" stroke-width="6" stroke-linecap="round"/>
+<circle cx="397" cy="280" r="28" fill="#087f73"/><path d="m384 280 9 9 18-20" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
