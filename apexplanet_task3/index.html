@@ -38,7 +38,17 @@
 <p class="muted" id="resultMessage"></p><button class="primary-button" id="restartButton" type="button">Try again</button>
 </div>
 </section>
-
+<section class="section joke-section" id="jokes">
+<div class="section-heading"><p class="eyebrow">A LITTLE BREAK</p><h2>Random Joke Generator</h2><p class="muted">Fetch a random joke from the Official Joke API.</p></div>
+<div class="joke-card">
+<div class="joke-icon" aria-hidden="true">笑</div><p class="joke-label">YOUR RANDOM JOKE</p>
+<p class="joke-setup" id="jokeSetup">Click the button to fetch a joke.</p>
+<p class="joke-punchline" id="jokePunchline"></p>
+<p class="api-status" id="apiStatus" role="status" aria-live="polite"></p>
+<div class="joke-actions"><button class="primary-button" id="jokeButton" type="button">Get a joke</button><button class="secondary-button" id="revealButton" type="button" disabled>Reveal punchline</button></div>
+</div>
+<p class="api-note">Data source: Official Joke API. An internet connection is required.</p>
+</section>
 </main>
 <footer class="site-footer"><p>ApexPlanet Internship | Task 3 – Advanced Styling and JavaScript</p></footer>
 </body></html>

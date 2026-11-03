@@ -24,7 +24,10 @@ h1,h2,h3{font-family:Manrope,Arial;line-height:1.2}h1{margin:0;font-size:clamp(2
 .quiz-feedback{min-height:1.5em;margin:18px 0 0;font-weight:700}.quiz-feedback.correct{color:var(--correct)}.quiz-feedback.incorrect{color:var(--wrong)}
 .quiz-actions{display:flex;justify-content:flex-end;margin-top:15px}.result-card{text-align:center}.result-card h3{margin:0;font-size:1.7rem}
 .result-score{margin:15px 0 5px;color:var(--accent);font:800 2.5rem Manrope,Arial}
-
+.joke-card{text-align:center}.joke-icon{width:58px;height:58px;display:grid;place-items:center;margin:0 auto 15px;border-radius:50%;background:#e5f2ef;color:var(--dark);font-size:1.6rem}
+.joke-label{color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:.13em}.joke-setup{max-width:650px;margin:14px auto;font:700 1.35rem/1.45 Manrope,Arial}
+.joke-punchline{max-width:650px;margin:10px auto;color:var(--dark);font-size:1.08rem;font-weight:700}.api-status{min-height:1.5em;color:var(--muted);font-size:.9rem}
+.joke-actions{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}.api-note{margin-top:13px;color:var(--muted);font-size:.85rem;text-align:center}
 .site-footer{padding:23px 5%;background:#173b3a;color:#eaf5f2;text-align:center}.site-footer p{margin:0}
 @media(max-width:760px){.navigation{min-height:68px;flex-wrap:wrap}.menu-toggle{display:block}.nav-links{display:none;width:100%;padding:0 0 16px;flex-direction:column;gap:12px}.nav-links.open{display:flex}.hero{padding:52px 0;grid-template-columns:1fr;gap:22px}.hero img{max-width:330px;justify-self:center}.section{margin-bottom:60px}}
 @media(max-width:520px){.quiz-card,.result-card,.joke-card{padding:21px}.answer-options{grid-template-columns:1fr}.quiz-topline{font-size:.82rem}.joke-actions{flex-direction:column}.joke-actions button{width:100%}}
