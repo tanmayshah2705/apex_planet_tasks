@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple to-do list that saves tasks in your browser.">
+  <title>To-Do List | Tanmay Shah</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/todo.js" defer></script>
+</head>
+<body>
+<header>
+  <nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="index.html">TS<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a><a href="about.html">About</a>
+      <a href="projects.html">Projects</a><a href="todo.html">To-Do</a><a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a class="nav-cta" href="contact.html">Let's talk ↗</a>
+  </nav>
+</header>
+
+<main class="wrap inner todo-page">
+  <div class="intro">
+    <p class="eyebrow">A SMALL PRODUCTIVITY TOOL</p>
+    <h1>Make space for<br><span>what matters.</span></h1>
+    <p class="lead">Add tasks, keep track of what’s done, and come back later. Your list is saved in this browser automatically.</p>
+  </div>
+
+  <section class="todo-app panel" aria-label="To-do list application">
+    <div class="todo-heading">
+      <div><p class="eyebrow">YOUR TASKS</p><h2>Task manager</h2></div>
+      <span class="save-indicator"><i></i> Saved locally</span>
+    </div>
+
+    <form id="todo-form" class="todo-form">
+      <label class="sr-only" for="task-input">Enter a task</label>
+      <input id="task-input" type="text" maxlength="120" placeholder="What needs to get done?" autocomplete="off" required>
+      <button class="btn primary" type="submit">Add task <span>＋</span></button>
+    </form>
+    <p id="form-message" class="form-message" aria-live="polite"></p>
+
+    <div class="todo-toolbar">
+      <div class="filters" role="group" aria-label="Filter tasks">
+        <button class="filter-btn selected" type="button" data-filter="all">All <span id="all-count">0</span></button>
+        <button class="filter-btn" type="button" data-filter="active">Active <span id="active-count">0</span></button>
+        <button class="filter-btn" type="button" data-filter="completed">Completed <span id="completed-count">0</span></button>
+      </div>
+      <button id="clear-completed" class="clear-btn" type="button">Clear completed</button>
+    </div>
+
+    <ul id="task-list" class="task-list" aria-live="polite"></ul>
+    <div id="empty-state" class="empty-state">
+      <div>✓</div><h3>Nothing here yet</h3><p>Add a task above and it will appear here.</p>
+    </div>
+    <div class="todo-footer"><span id="remaining-count">0 tasks remaining</span><span>Changes are saved automatically</span></div>
+  </section>
+  <p class="storage-note">Your tasks are stored using <code>localStorage</code> on this device and browser. They are not uploaded to a server.</p>
+</main>
+
+<footer class="footer wrap">
+  <a class="brand" href="index.html">TS<span>.</span></a>
+  <p>Designed & built by Tanmay Shah.</p>
+  <small>© <span id="year"></span></small>
+</footer>
+</body>
+</html>
